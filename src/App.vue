@@ -70,6 +70,7 @@ body {
       margin: 1rem 0;
       border-radius: 1rem;
       background-color: purple;
+   
       .login {
         background-color: #ccc;
         // top: 50%;
@@ -82,6 +83,7 @@ body {
           width: 100%;
           border-radius: 2rem;
           margin: 1rem 0;
+          border: none;
           &:focus {
             box-shadow: none;
           }
@@ -103,6 +105,9 @@ body {
             outline: none;
           }
         }
+      }
+         @media(max-width:567px){
+        width: 70%;
       }
     }
     .chat-area {
