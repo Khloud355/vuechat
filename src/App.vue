@@ -129,6 +129,9 @@ body {
             font-weight: 700;
             // padding: 1rem 0;
             margin-right: 0.6rem;
+            @media(max-width: 567px){
+              margin-right: .3rem;
+            }
           }
           .user-name {
             color: #fff;
@@ -161,6 +164,9 @@ body {
             font-weight: 700;
             color: rgb(117, 117, 117);
             font-size: 0.9rem;
+              @media(max-width: 567px){
+              margin-right: .5rem;
+            }
           }
           .message {
             background-color: antiquewhite;
@@ -183,6 +189,9 @@ body {
             color: rgb(117, 117, 117);
             font-size: 0.9rem;
             text-align: center;
+              @media(max-width: 567px){
+              margin-left: .5rem;
+            }
           }
         }
       }
